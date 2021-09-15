@@ -75,3 +75,9 @@ To check if everything is on the right track:
   - Interfaces https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
   - Types https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Types
   - Constants https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants
+
+
+## Custom Shaders
+![Capture](https://user-images.githubusercontent.com/47481296/133378061-cd936d9e-aa86-4eb4-9217-e562784983d8.PNG)
+I created a cube that is shaded with a 3D perlin noise function to create a glow like effect and also slowly comes apart. The vertex deformation is based on the normals of each face of the cube, and the fragment shader is locked into white once the color value reaches a certain threshold. 
+
